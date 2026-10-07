@@ -1,0 +1,92 @@
+﻿.navbar{
+ display: flex;
+ justify-content: space-between;
+ padding:20px 8px;
+ background-color: #ffffff;
+ 
+
+}header{
+    position: sticky;
+    z-index: 1000;
+    top:0
+}
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    padding:0;
+    margin: 0;
+    list-style: none;
+
+}.nav-links a{
+    text-decoration: none;
+    color : #374151;
+    font-size: 16px;
+
+}.button{
+    background-color: #2563eb;
+    color:white;
+    padding:12px 8px;
+    text-decoration:none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+
+}.button:hover{
+    background-color: #1d4ed8;
+}
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    max-width: 1200px;
+    gap:40px;
+    padding: 60px 20px;
+    background:linear-gradient(90deg,purple,pink,violet) ;
+}
+.hero-content{
+    flex:1;
+}.hero-content h1{
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}.hero-content p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width:550px;
+}.hero-buttons{
+    display: flex;
+    gap: 15px;
+}.primary-btn,
+.secondary-btn{
+    padding: 14px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}.primary-btn{
+    background-color: #2563eb;
+    color: #ffffff;
+}.secondary-btn{
+    background-color: #1d4ed8;
+    color:#ffffff
+}.hero-card{
+    width: 350px;
+    height: 300px;
+    padding:40px;
+    border-radius: 20px;
+    background:linear-gradient(35deg,rgb(58, 80, 225),blue,rgb(74, 79, 237));
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}.logopng{
+    border-radius: 50%;
+}
